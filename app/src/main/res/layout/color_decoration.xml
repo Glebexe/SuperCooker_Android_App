@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/yellowStrokePanel"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:background="#FFFF0000"
+        app:layout_constraintBottom_toBottomOf="@id/yellowColor"
+        app:layout_constraintEnd_toEndOf="@id/yellowColor"
+        app:layout_constraintStart_toStartOf="@id/yellowColor"
+        app:layout_constraintTop_toTopOf="@id/yellowColor" />
+
+    <TextView
+        android:id="@+id/colorForDecoration"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:text="         Цвет оформления:"
+        android:textColor="#E59206"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/yellowColor"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:background="#FFEB3B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/greenStrokePanel"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:background="#FFFF0000"
+        app:layout_constraintBottom_toBottomOf="@id/greenColor"
+        app:layout_constraintEnd_toEndOf="@id/greenColor"
+        app:layout_constraintStart_toStartOf="@id/greenColor"
+        app:layout_constraintTop_toTopOf="@id/greenColor" />
+
+    <TextView
+        android:id="@+id/greenColor"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="30dp"
+        android:background="#71A61A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/blueStrokePanel"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:background="#FFFF0000"
+        app:layout_constraintBottom_toBottomOf="@id/blueColor"
+        app:layout_constraintEnd_toEndOf="@id/blueColor"
+        app:layout_constraintStart_toStartOf="@id/blueColor"
+        app:layout_constraintTop_toTopOf="@id/blueColor" />
+
+    <TextView
+        android:id="@+id/blueColor"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="80dp"
+        android:background="#52C9FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/redStrokePanel"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:background="#FFFF0000"
+        app:layout_constraintBottom_toBottomOf="@id/redColor"
+        app:layout_constraintEnd_toEndOf="@id/redColor"
+        app:layout_constraintStart_toStartOf="@id/redColor"
+        app:layout_constraintTop_toTopOf="@id/redColor" />
+
+    <TextView
+        android:id="@+id/redColor"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="80dp"
+        android:background="#DF4D4D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
